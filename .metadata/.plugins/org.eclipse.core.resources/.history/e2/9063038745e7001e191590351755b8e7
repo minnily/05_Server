@@ -1,0 +1,9 @@
+package edu.kh.servlet.controller;
+
+import jakarta.servlet.http.HttpServlet;
+
+//Servlet 관련 코드를 작성하기 위해서는 HttpServlet 클래스를 상속 받아야한다!
+public class ExampleController2 extends HttpServlet{
+
+	
+}

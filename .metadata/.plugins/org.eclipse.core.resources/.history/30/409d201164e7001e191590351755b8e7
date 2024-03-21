@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playList_song2</title>
+</head>
+<body>
+    <h1> [== playlist_singer == ]</h1>
+
+    <form action ="/song" method="get">
+        가수 : <select name="2.songList">
+                    <option>1. 애정표현 </option>
+                    <option>2. 아니 근데 진짜 </option>
+                    <option>3. 결국 아무것도 알 수 없었지만 </option>
+                    <option>4. 놀이 </option>
+                    <option>5. 히어로</option>
+               </select>
+        <br><br>
+        <button>PLAYLIST 만들기</button>
+    </form>
+</body>
+</html>
