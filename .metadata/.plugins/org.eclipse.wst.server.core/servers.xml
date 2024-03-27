@@ -9,7 +9,10 @@
   <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/lmk-config" deployDir="wtpwebapps" hostname="localhost" id="lmk" name="lmk" runtime-id="Apache Tomcat v10.1" server-type="org.eclipse.jst.server.tomcat.101" server-type-id="org.eclipse.jst.server.tomcat.101" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="3">
     <list key="modules" value0="LMK::org.eclipse.jst.jee.server:LMK::jst.web::6.0"/>
   </server>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/todolist server-config" deployDir="wtpwebapps" hostname="localhost" id="todolist server" name="todolist server" runtime-id="Apache Tomcat v10.1" server-type="org.eclipse.jst.server.tomcat.101" server-type-id="org.eclipse.jst.server.tomcat.101" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="2">
-    <list key="modules" value0="ServletProject::org.eclipse.jst.jee.server:ServletProject::jst.web::6.0" value1="TodoList::org.eclipse.jst.jee.server:TodoList::jst.web::6.0"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/todolist server-config" deployDir="wtpwebapps" hostname="localhost" id="todolist server" name="todolist server" runtime-id="Apache Tomcat v10.1" server-type="org.eclipse.jst.server.tomcat.101" server-type-id="org.eclipse.jst.server.tomcat.101" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="6">
+    <list key="modules" value0="TodoList::org.eclipse.jst.jee.server:TodoList::jst.web::6.0"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/playlist-config" deployDir="wtpwebapps" hostname="localhost" id="playlist" name="playlist" runtime-id="Apache Tomcat v10.1" server-type="org.eclipse.jst.server.tomcat.101" server-type-id="org.eclipse.jst.server.tomcat.101" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="1">
+    <list key="modules" value0="PLAYLIST::org.eclipse.jst.jee.server:PLAYLIST::jst.web::6.0"/>
   </server>
 </servers>

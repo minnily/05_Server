@@ -6,11 +6,11 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@ToString
-@AllArgsConstructor
-@NoArgsConstructor
-@Setter
 @Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class Todo {
 	
 	private int todoNo;
@@ -18,5 +18,4 @@ public class Todo {
 	private String todoMemo;
 	private String todoDate;
 	private String todoDeleteFlag;
-	
 }

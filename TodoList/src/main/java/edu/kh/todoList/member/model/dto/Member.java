@@ -6,22 +6,18 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@AllArgsConstructor //모든 필드에 대한 매개변수 생성자
-@NoArgsConstructor//기본생성자
-@Setter
+@NoArgsConstructor // 기본생성자
+@AllArgsConstructor // 모든필드에 대한 매개변수 생성자
 @Getter
+@Setter
 @ToString
 public class Member {
-	
 	
 	// lombok 라이브러리 : getter/setter, 생성자, toString() 자동완성 라이브러리
 	private int memberNo;
 	private String memberId;
 	private String memberPw;
-	private String memberNickName;
+	private String memberNickname;
 	private String enrollDate;
 	private String memberDeleteFlag;
-	
-	
-	
 }

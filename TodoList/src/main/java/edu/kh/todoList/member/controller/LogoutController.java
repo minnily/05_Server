@@ -11,17 +11,17 @@ import jakarta.servlet.http.HttpSession;
 
 @WebServlet("/logout")
 public class LogoutController extends HttpServlet{
-
+	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		//HttpSession 을 얻어와
+		// HttpSession 을 얻어와
 		HttpSession session = req.getSession();
 		
-		//Session을 무효화 하고
+		// Session을 무효화 하고
 		session.invalidate();
 		
-		//메인페이지를 재요청(redirect)
+		// 메인페이지를 재요청(redirect)
 		resp.sendRedirect("/");
 		
 	}
