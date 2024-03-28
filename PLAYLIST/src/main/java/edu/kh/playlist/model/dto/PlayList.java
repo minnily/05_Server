@@ -16,7 +16,8 @@ public class PlayList {
 
 	private int playListNo; //플레이리스트 번호
 	private String singer; //가수
-	private String playListMusic; // 곡
+	private String song; // 곡
 	private String releaseDate; // 가사
+	private String genre; //장르
 	
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="login">
+		SELECT MEMBER_NO, MEMBER_ID, MEMBER_NM,
+		TO_CHAR(ENROLL_DT, 'YYYY"년" MM"월" DD"일"') AS ENROLL_DT
+		FROM MEMBERS
+		WHERE UNREGISTER_FL = 'N'
+		AND MEMBER_ID = ?
+		AND MEMBER_PW = ?
+	</entry>
+	
+	<entry key="signup">
+	INSERT INTO MEMBERS
+	VALUES(SEQ_MEMBERS_NO.NEXTVAL, ?, ?, ?, ?, SYSDATE, DEFAULT)
+	</entry>
+	
+</properties>
