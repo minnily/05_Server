@@ -34,7 +34,7 @@ public class ExampleController1 extends HttpServlet{
 		
 		//Parameter : 매개변수 , 그렇다면 매개변수란? 다른 곳의 값을 전달 받아올 때 사용하는 것을 말한다.
 		// req.getParameter("name 속성값"); ?
-		// ▷ 요청 시 전달된 데이터 중 name 속성값이 일치하는 데이터의 value를 얻어와 String 형태로 반환해주는 메서드이다.
+		// ▷ 요청 시 전달된 데이터 중 name 속성값이 일치하는 데이터의 value를 얻어와 Strinreq.getParameter("name 속성값"); ?g 형태로 반환해주는 메서드이다.
 
 		//HTML 에서 얻어오는 모든 값은 String!!!
 		String name = req.getParameter("inputName");
